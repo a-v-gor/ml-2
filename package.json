@@ -1,0 +1,29 @@
+{
+  "name": "ml-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-v-gor/ml-2.git"
+  },
+  "keywords": [],
+  "author": "Alexey Gorbenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-v-gor/ml-2/issues"
+  },
+  "homepage": "https://github.com/a-v-gor/ml-2#readme"
+}
