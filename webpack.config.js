@@ -16,7 +16,18 @@ module.exports = {
     filename: '[name].js',
   },
   module: {
-    rules: [{ test: /\.pug$/, loader: 'pug-loader', options: { pretty: true } }],
+    rules: [
+      { test: /\.pug$/, 
+        loader: 'pug-loader', 
+        options: { pretty: true } 
+      },
+      { test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: PATHS.dist/'img',
+        },
+      },
+    ],
   },
   plugins: [
     ...PAGES.map(page => new HtmlWebpackPlugin ({
