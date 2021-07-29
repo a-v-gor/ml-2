@@ -6,17 +6,8 @@ doctype html
   meta(name='viewport', content="initial-scale=1.0, width=device-width")
   title
 body
-  header 
-    nav 
-      a <img src='../src/assets/img/logo.jpg'  width="106" height="40" alt="Логотип отеля Toxin">
-      ul 
-        li: a(href='blank.html') О нас
-        li 
-        li 
-
-  
-   
-  
-    h1 test pug au
-    
-    a(href='1.html') новая страница
+  header
+    include header/header.pug
+  main 
+  footer 
+    include footer/footer.pug
