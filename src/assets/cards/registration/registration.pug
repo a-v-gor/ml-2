@@ -1,0 +1,9 @@
+section 
+  h2 Регистрация аккаунта
+  form(action="https://echo.htmlacademy.ru", method="post")  
+    input( type="text", name="fname", placeholder="Имя")
+    input( type="text", name="lname", placeholder="Фамилия")
+    label
+      input( type="radio", name="gender", value="man", required) Мужчина
+      input( type="radio", name="gender", value="woman") Женщина
+    button(type="submit") забронировать

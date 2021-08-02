@@ -1,0 +1,10 @@
+section 
+  h2 Бронирование номера
+  form(action="https://echo.htmlacademy.ru", method="post")  
+    label прибытие
+      input( type="date", name="date-arr", placeholder="дд.мм.гггг")
+    label выезд
+      input(type="date", name="date-dep", placeholder="дд.мм.гггг")
+    label гости
+      input(type="text", name="guests", placeholder="Сколько гостей")
+    button(type="submit") забронировать
