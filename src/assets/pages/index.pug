@@ -5,9 +5,12 @@ doctype html
   meta(name='description', content="description")
   meta(name='viewport', content="initial-scale=1.0, width=device-width")
   title
-body
+body.page-body
   include header/header.pug
-  main 
+  main.main-container 
+    h1.visually-hidden Отель Toxin.
+    p.advantages Лучшие номера для вашей работы, отдыха и просто вдохновения
   include footer/footer.pug
 include ../cards/find-room/find-room.pug
 include ../cards/room-reserv/room-reserv.pug
+include ../cards/registration/registration.pug

@@ -1,45 +1,48 @@
-footer
-  section
-    h2 Услуги
-    a
-      img(src='../src/assets/img/logo.jpg'  width="106" height="40" alt="Логотип отеля Toxin")
-      p Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+footer.page-footer
+  .footer-wrapper
+    .footer-container-nav
+      section.footer-advantages 
+        h2.visually-hidden Услуги
+        a
+          img(src='../src/assets/img/logo.jpg'  width="106" height="40" alt="Логотип отеля Toxin")
+          p Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+      section.footer-nav
+        h2.footer-nav Навигация
+        ul 
+          li: a(href='blank.html') О нас
+          li: a(href='blank.html') Новости
+          li: a(href='blank.html') Служба поддержки
+          li: a(href='blank.html') Услуги
 
-  section
-    h2 Навигация
-    ul 
-      li: a(href='blank.html') О нас
-      li: a(href='blank.html') Новости
-      li: a(href='blank.html') Служба поддержки
-      li: a(href='blank.html') Услуги
+      section.footer-nav
+        h2.footer-nav О нас
+        ul 
+          li: a(href='blank.html') О сервисе
+          li: a(href='blank.html') Наша команда
+          li: a(href='blank.html') Вакансии
+          li: a(href='blank.html') Инвесторы
 
-  section
-    h2 О нас
-    ul 
-      li: a(href='blank.html') О сервисе
-      li: a(href='blank.html') Наша команда
-      li: a(href='blank.html') Вакансии
-      li: a(href='blank.html') Инвесторы
+      section.footer-nav
+        h2.footer-nav Служба поддержки
+        ul 
+          li: a(href='blank.html') Соглашения
+          li: a(href='blank.html') Сообщества
+          li: a(href='blank.html') Связь с нами
 
-  section
-    h2 Служба поддержки
-    ul 
-      li: a(href='blank.html') Соглашения
-      li: a(href='blank.html') Сообщества
+      section.subscript 
+        h2.footer-nav Подписка
+        p Получайте специальные предложения и новости сервиса
+        form
+          label(for="") E-mail
+          input(type="text", name='email', placeholder='email@email.ru') 
+          input(type="submit", value="Подтвердить")
+    .footer-container-bottom 
+      section.copyright
+        p Copyright © 2018 Toxin отель. Все права защищены.
 
-  section 
-    h2 Подписка
-    p Получайте специальные предложения и новости сервиса
-    form
-      label(for="") E-mail
-      input(type="text", name='email', value='email@email.ru') 
-      input(type="submit", value="Подтвердить")
-
-  p Copyright © 2018 Toxin отель. Все права защищены.
-
-  section 
-    h2 Социальные сети
-    ul 
-      li: a(href='https://twitter.com', rel='noopener noreferrer', target='_blank') Twitter
-      li: a(href='https://www.facebook.com', rel='noopener noreferrer', target='_blank') Facebook
-      li: a(href='https://www.instagram.com', rel='noopener noreferrer', target='_blank') Instagram
+      section.social
+        h2.visually-hidden Социальные сети
+        ul 
+          li: a(href='https://twitter.com', rel='noopener noreferrer', target='_blank') Twitter
+          li: a(href='https://www.facebook.com', rel='noopener noreferrer', target='_blank') Facebook
+          li: a(href='https://www.instagram.com', rel='noopener noreferrer', target='_blank') Instagram

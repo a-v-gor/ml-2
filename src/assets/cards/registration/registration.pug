@@ -3,7 +3,17 @@ section
   form(action="https://echo.htmlacademy.ru", method="post")  
     input( type="text", name="fname", placeholder="Имя")
     input( type="text", name="lname", placeholder="Фамилия")
-    label
-      input( type="radio", name="gender", value="man", required) Мужчина
-      input( type="radio", name="gender", value="woman") Женщина
-    button(type="submit") забронировать
+    label Мужчина
+      input( type="radio", name="gender", value="man")
+    label Женщина
+      input( type="radio", name="gender", value="woman") 
+    label дата рождения
+      input(type="date", name="birthday", placeholder="дд.мм.гггг")
+    label данные для входа в сервис
+      input(type="email", name="email", placeholder="Email")
+      input(type="password", name="password", placeholder="Пароль")
+    label Получать спецпредложения
+      input(type="checkbox", name="spec-notifications")
+    button(type="submit") зарегистрироваться
+    p Уже есть аккаунт на Toxin
+    button войти
